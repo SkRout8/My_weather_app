@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.weather{
+    
+    /* font-family: "Parisienne", cursive; */
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    /* font-family: "Lato", sans-serif; */
+    /* font-family: "Pacifico", cursive; */
+}
+.span{
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.Span1{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.Span2{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+.anim{
+  
+   margin-left: 280px;
+ 
+
+}
+.Humidity{
+    width: 30px;
+}
+.span3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+
+}
+.Data_div{
+    /* margin-right: 50px; */
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.Location_img{
+    width: 27px;
+    height: 27px;
+    margin-top: 8px;
+}
+.Box{
+    border-radius: 20px;
+}
+.Box_width{
+    max-width: 3000px;
+    height: 2000px;
+}
