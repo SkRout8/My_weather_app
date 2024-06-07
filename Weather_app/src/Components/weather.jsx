@@ -101,11 +101,55 @@ function weather() {
                   
                   <Lottie
                     className=" w-28 Text-animation"
-                   animationData={Sun}
+                   
                   />
                 </div>)
                   }
-                 
+                  {
+                    weather=="Rain"? ( <div>
+                  
+                  <Lottie
+                    className=" w-36 -ml-28 -mt-10 Text-animation"
+                    animationData={Rainy}
+                  />
+                </div>) :(<div>
+                  
+                  <Lottie
+                    className=" Text-animation"
+                    
+                  />
+                </div>)
+                }
+                {
+                    weather=="Haze"? ( <div>
+                  
+                  <Lottie
+                    className=" w-36 -ml-28 -mt-10 Text-animation"
+                    animationData={haze}
+                  />
+                </div>) :(<div>
+                  
+                  <Lottie
+                    className=" Text-animation"
+                    
+                  />
+                </div>)
+                }
+                {
+                    weather=="Clear"? ( <div>
+                  
+                  <Lottie
+                    className=" w-36 -ml-32 -mt-10 Text-animation"
+                    animationData={Sun}
+                  />
+                </div>) :(<div>
+                  
+                  <Lottie
+                    className=" Text-animation"
+                    
+                  />
+                </div>)
+                }
 
 
                  
